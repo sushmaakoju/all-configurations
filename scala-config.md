@@ -3,8 +3,11 @@
 ### Scala on MacOS
 `brew install coursier/formulas/coursier && cs setup`
 
-#### Java on MacOS
+#### Install Java on MacOS
 `brew install openjdk`
+
+#### Install SBT
+`brew install sbt`
 
 ### Scala on Windows & Linux
 
@@ -45,6 +48,9 @@
 - `source ~/.bashrc`
 - `echo $JAVA_HOME`
 
+#### Install SBT
+`brew install sbt`
+
 #### Scala extensions on VSCode
 - Open VSCode -> Extensions -> Search and Install following:
     - Scala (Metals)
@@ -53,5 +59,9 @@
 #### Settings on VSCode
 <a href="https://github.com/sushmaakoju/scala-sbt/blob/main/vscode-config.md"> VSCode User & Default settings </a>
 
-
+#### Install SBT
+`$ curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs`
+`chmod +x cs`
+`./cs setup`
+`sbt --version `
 
