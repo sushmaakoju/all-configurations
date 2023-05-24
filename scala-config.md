@@ -50,6 +50,8 @@
     - Scala (Metals)
     - Sbt
 
+#### Settings on VSCode
+<a href="https://github.com/sushmaakoju/scala-sbt/blob/main/vscode-config.md"> VSCode User & Default settings </a>
 
 
 
